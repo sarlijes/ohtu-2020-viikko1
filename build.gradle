@@ -39,3 +39,12 @@ jar {
 	}
 }
 
+
+// Codecov observing config
+jacocoTestReport {
+    reports {
+            xml.enabled true
+	    html.enabled true
+    }
+}
+
