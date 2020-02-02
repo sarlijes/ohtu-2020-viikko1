@@ -36,7 +36,7 @@ public class VarastoTest {
 
     @Test
     public void virheellinenVarastoLuodaanOikein() {
-        assertEquals(1337.0, virheelllinenVarasto.getTilavuus(), vertailuTarkkuus);
+        assertEquals(0.0, virheelllinenVarasto.getTilavuus(), vertailuTarkkuus);
         assertEquals(0.0, virheelllinenVarasto.getSaldo(), vertailuTarkkuus);
     }
 
