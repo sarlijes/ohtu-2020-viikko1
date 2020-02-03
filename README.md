@@ -6,5 +6,5 @@ CircleCI:
 Codecov:
 [![codecov](https://codecov.io/gh/sarlijes/ohtu-2020-viikko1/branch/master/graph/badge.svg)](https://codecov.io/gh/sarlijes/ohtu-2020-viikko1)
 
-
+https://github.com/sarlijes/Ohjelmistotuotanto-2020
 
