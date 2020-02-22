@@ -10,7 +10,7 @@ public class Varasto {
     public Varasto(double tilavuus) {  // tilavuus on annettava
         if (tilavuus > 0.0) {
             this.tilavuus = tilavuus;
-        } else { // virheellinen, nollataan 
+        } else { // virheellinen, nollataan
             this.tilavuus = 0.0;  // => käyttökelvoton varasto
         }
         saldo = 0;     // oletus: varasto on tyhjä
@@ -28,15 +28,17 @@ public class Varasto {
     }
 
     // --- ottavat aksessorit eli getterit: ---
-    public double getSaldo() {
+    public double getSaldo() 
+    {
         return saldo;
     }
 
-    public double getTilavuus() {
+    public double getTilavuus()         
+                    {
         return tilavuus;
     }
 
-    public double paljonkoMahtuu() {  // huom: ominaisuus voidaan myös laskea
+    public double paljonkoMahtuu() {// huom: ominaisuus voidaan myös laskea
         return tilavuus - saldo;        //  ei tarvita erillistä kenttää vielaTilaa tms.
     }
 
